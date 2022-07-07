@@ -1,7 +1,5 @@
 @import "reset.css";
 
-/*font*/
-@import url('https://webfontworld.github.io/GmarketSans/GmarketSans.css');
 
 /* Components */
 
@@ -15,12 +13,29 @@ body{
 }
 
 @font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'GmarketSans';
+    font-weight: 700; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/GmarketSans/GmarketSansTTFBold.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/GmarketSans/GmarketSansTTFBold.woff) format('woff');
+    font-display: swap;
 }
-
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/GmarketSans/GmarketSansTTFMedium.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/GmarketSans/GmarketSansTTFMedium.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300; 
+    font-style: normal; 
+    src: url(https://cdn.jsdelivr.net/gh/webfontworld/GmarketSans/GmarketSansTTFLight.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/gh/webfontworld/GmarketSans/GmarketSansTTFLight.woff) format('woff');
+    font-display: swap;
+}
 
 
 
