@@ -1,3 +1,3 @@
-# Kokoa clone 2022 Update
+# reward
 
-HTML & CSS are so much fun!
+reward
