@@ -20,7 +20,7 @@
 }
 
 * {
-	font-family: 'GmarketSansBold', 'GmarketSansMedium', 'GmarketSansLight' ;
+	font-family: 'GmarketSansLight';
 }
 
 @import "reset.css";
