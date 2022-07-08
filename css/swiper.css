@@ -1,0 +1,74 @@
+.swiperVh{
+  height: 100vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiperText{
+    position: absolute;
+    bottom: 310px;
+  }
+
+  .swiperText__title{
+    font-family: 'GmarketSansbold';
+    color: #3e4056;
+    margin-bottom: 30px;
+  }
+
+  .swiperText__P{
+    font-family: 'GmarketSansMedium';
+    font-size: 0.7em;
+    line-height: 1.9;
+  }
+
+  .swiper__btn{
+    position: absolute;
+    bottom: 140px;
+  }
+
+  .swiper__btn>button{
+    width: 122px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #58C6FF;
+    color: #ffffff;
+    font-family: 'GmarketSansBold';
+    font-size: 0.8em;
+  }
+
+  .swiper-pagination-bullet{
+    background-color: #58C6FF !important;
+  }
