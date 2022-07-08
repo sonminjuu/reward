@@ -45,7 +45,7 @@
   .swiperText__title{
     font-family: 'GmarketSansbold';
     color: #3e4056;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
   }
 
   .swiperText__P{
@@ -56,7 +56,7 @@
 
   .swiper__btn{
     position: absolute;
-    bottom: 100px;
+    bottom: 60px;
   }
 
   .swiper__btn>button{
