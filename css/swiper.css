@@ -38,7 +38,7 @@
 
   .swiperText{
     position: absolute;
-    bottom: 310px;
+    bottom: 280px;
   }
 
   .swiperText__title{
@@ -55,7 +55,7 @@
 
   .swiper__btn{
     position: absolute;
-    bottom: 140px;
+    bottom: 100px;
   }
 
   .swiper__btn>button{
