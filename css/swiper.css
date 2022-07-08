@@ -37,8 +37,9 @@
   }
 
   .swiperText{
+    width: 100%;
     position: absolute;
-    bottom: 280px;
+    margin-top: 130px;
   }
 
   .swiperText__title{
